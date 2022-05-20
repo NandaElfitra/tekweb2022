@@ -1,0 +1,399 @@
+{
+  "#comment": "",
+  "html": {
+    "@lang": "en",
+    "head": {
+      "#comment": [
+        "",
+        "",
+        ""
+      ],
+      "meta": [
+        {
+          "@charset": "utf-8"
+        },
+        {
+          "@name": "viewport",
+          "@content": "width=device-width, initial-scale=1"
+        },
+        {
+          "@name": "description",
+          "@content": ""
+        },
+        {
+          "@name": "viewport",
+          "@content": "width=device-width, initial-scale=1"
+        }
+      ],
+      "link": [
+        {
+          "@href": "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css",
+          "@rel": "stylesheet",
+          "@integrity": "sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3",
+          "@crossorigin": "anonymous"
+        },
+        {
+          "@rel": "stylesheet",
+          "@type": "text/css",
+          "@href": "style.css"
+        },
+        {
+          "@rel": "shortcut icon",
+          "@href": "img.jpg/png",
+          "@type": "image/jpg/png"
+        }
+      ],
+      "title": "Wellcome to My Portfolio"
+    },
+    "body": {
+      "@id": "home",
+      "#comment": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "nav": {
+        "@class": "navbar navbar-expand-lg navbar-dark shadow-sm fixed-top",
+        "@style": "background-color: #228ff6;",
+        "div": {
+          "@class": "container",
+          "a": {
+            "@class": "navbar-brand",
+            "@href": "#",
+            "#text": "MY PORTOFOLIO"
+          },
+          "button": {
+            "@class": "navbar-toggler",
+            "@type": "button",
+            "@data-bs-toggle": "collapse",
+            "@data-bs-target": "#navbarNav",
+            "@aria-controls": "navbarNav",
+            "@aria-expanded": "false",
+            "@aria-label": "Toggle navigation",
+            "span": {
+              "@class": "navbar-toggler-icon"
+            }
+          },
+          "div": {
+            "@class": "collapse navbar-collapse",
+            "@id": "navbarNav",
+            "ul": {
+              "@class": "navbar-nav ms-auto",
+              "li": [
+                {
+                  "@class": "nav-item",
+                  "a": {
+                    "@class": "nav-link active",
+                    "@aria-current": "page",
+                    "@href": "#home",
+                    "#text": "Home"
+                  }
+                },
+                {
+                  "@class": "nav-item",
+                  "a": {
+                    "@class": "nav-link",
+                    "@href": "#about",
+                    "#text": "About"
+                  }
+                },
+                {
+                  "@class": "nav-item",
+                  "a": {
+                    "@class": "nav-link",
+                    "@href": "#information",
+                    "#text": "Information"
+                  }
+                },
+                {
+                  "@class": "nav-item",
+                  "a": {
+                    "@class": "nav-link",
+                    "@href": "#contact",
+                    "#text": "Contact"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "section": [
+        {
+          "@class": "jumbotron text-center",
+          "img": {
+            "@src": "Ellfitra.jpg",
+            "@alt": "Gustia Nanda Elfitra Santi",
+            "@width": "200",
+            "@class": "rounded-circle img-thumbnail"
+          },
+          "h1": {
+            "@class": "display-4 fw-bold",
+            "@style": "color: #228ff6;",
+            "#text": "Gustia Nanda Elfitra Santi"
+          },
+          "p": {
+            "@class": "lead",
+            "#text": "Mahasiswi | Sistem Informasi"
+          }
+        },
+        {
+          "@id": "about",
+          "div": {
+            "@class": "container",
+            "div": [
+              {
+                "@class": "row text-center mb-3",
+                "div": {
+                  "@class": "col",
+                  "h2": "Tentang Saya"
+                }
+              },
+              {
+                "@class": "row content-center",
+                "div": [
+                  {
+                    "@class": "col-md",
+                    "h5": [
+                      "Formal Education",
+                      "Organization Experience"
+                    ],
+                    "li": [
+                      "Elementary school\r\n                                  2 Dwijaya (2008-\r\n                                  2014)",
+                      "Junior High School O\r\n                                  Mangunharjo (2014-2017)",
+                      "Senior High School \r\n                                  Tugumulyo ( 2017-2020)",
+                      "University of Ahmad\r\n                                  Dahlan (2020-now)",
+                      "Dance member of SMP N O\r\n                                      Mangunharjo (2014-2016)",
+                      "Flag raisers member\r\n                                      of SMP N O Mangunharjo \r\n                                      (2014-2017)",
+                      "Marching Band member of\r\n                                      SMP N O Mangunharjo \r\n                                      (2014-2017)",
+                      "Marching Band member of\r\n                                    SMA N Tugumulyo \r\n                                    (2017-2019)",
+                      "Flag raisers member\r\n                                    of SMA N Tugumulyo \r\n                                    (2017-2019)"
+                    ],
+                    "br": [
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "@class": "col-md",
+                    "h5": [
+                      "Non Formal Education",
+                      "Award"
+                    ],
+                    "li": [
+                      "Bimbingan Belajar\r\n                                  Al-Kwarismi Matematika \r\n                                  (2012-2016)",
+                      "Bimbingan Belajar\r\n                                  Primagama (2014-2015)",
+                      "Top 10 finishers in \r\n                                     the 10 km Run Organization\r\n                                     by Jomrun",
+                      "2nd place in district level \r\n                                    quiz competition (2012)"
+                    ],
+                    "br": [
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "@class": "col-md",
+                    "h5": [
+                      "Social Media",
+                      "Hobby"
+                    ],
+                    "li": [
+                      "Instagram : @nanda_elf02",
+                      "Facebook : Nanda Elfitra",
+                      "Email :\r\n                                      gustiananda.elf12@gmail.com",
+                      "Youtube : Gustia Nanda Elfitra Santi",
+                      "Eat",
+                      "Listening to music",
+                      "Touring with my favorite motorbike, Bebelac"
+                    ],
+                    "br": [
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "@id": "information",
+          "@style": "background-color: #e2edff;",
+          "div": {
+            "@class": "container",
+            "div": [
+              {
+                "@class": "row text-center mb-3",
+                "div": {
+                  "@class": "col",
+                  "h2": "My Articel"
+                }
+              },
+              {
+                "@class": "row",
+                "div": [
+                  {
+                    "@class": "col-md-4 mb-3",
+                    "div": {
+                      "@class": "card",
+                      "img": {
+                        "@src": "AKU.jpg",
+                        "@class": "card-img-top",
+                        "@alt": "fotobuku"
+                      },
+                      "div": {
+                        "@class": "card-body",
+                        "a": {
+                          "@href": "",
+                          "#text": "Read more."
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "@class": "col-md-4 mb-3",
+                    "div": {
+                      "@class": "card",
+                      "img": {
+                        "@src": "me.jpg",
+                        "@class": "card-img-top",
+                        "@alt": "fotobuku"
+                      },
+                      "div": {
+                        "@class": "card-body",
+                        "a": {
+                          "@href": "",
+                          "#text": "Read more."
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "@class": "col-md-4 mb-3",
+                    "div": {
+                      "@class": "card",
+                      "img": {
+                        "@src": "Nanda.jpg",
+                        "@class": "card-img-top",
+                        "@alt": "fotobuku"
+                      },
+                      "div": {
+                        "@class": "card-body",
+                        "a": {
+                          "@href": "",
+                          "#text": "Read more."
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "#comment": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "body": {
+            "footer": {
+              "@id": "contact",
+              "@style": "background-color: #ffffff;",
+              "div": {
+                "@class": "container",
+                "div": [
+                  {
+                    "@class": "row text-center mb-4",
+                    "div": {
+                      "@class": "col",
+                      "h2": "Contact Me"
+                    }
+                  },
+                  {
+                    "@class": "row text-center mb-3",
+                    "div": {
+                      "@class": "col",
+                      "a": [
+                        {
+                          "@href": "https://www.facebook.com/nanda.elfitra02",
+                          "@target": "_blank",
+                          "img": {
+                            "@src": "fb.png",
+                            "@width": "45"
+                          }
+                        },
+                        {
+                          "@href": "https://www.instagram.com/nanda_elf02/",
+                          "img": {
+                            "@src": "ig.png",
+                            "@width": "70"
+                          }
+                        },
+                        {
+                          "@href": "https://www.youtube.com/channel/UCCZT8EA6IfePH0B9dyOS9vw",
+                          "@target": "_blank",
+                          "img": {
+                            "@src": "yt.jfif",
+                            "@width": "50"
+                          }
+                        },
+                        {
+                          "@href": "https://api.whatsapp.com/send?phone=6285367731719&text=Hallo%20Nanda",
+                          "@target": "_blank",
+                          "img": {
+                            "@src": "WA.png",
+                            "@width": "40"
+                          }
+                        }
+                      ],
+                      "#text": [
+                        "&nbsp &nbsp &nbsp &nbsp &nbsp",
+                        "&nbsp &nbsp &nbsp &nbsp &nbsp",
+                        "&nbsp &nbsp &nbsp &nbsp &nbsp",
+                        "&nbsp &nbsp &nbsp &nbsp &nbsp"
+                      ]
+                    }
+                  },
+                  {
+                    "@class": "row text-center mb-4",
+                    "div": {
+                      "@class": "col",
+                      "h1": {
+                        "a": {
+                          "@href": "mailto:gustiananda.elf12@gmail.com",
+                          "@title": "Assalamu'alaikum Warahmatullahi Wabarakaatuh",
+                          "#text": "gustiananda.elf12@gmail.com"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "script": {
+            "@src": "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js",
+            "@integrity": "sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p",
+            "@crossorigin": "anonymous"
+          }
+        }
+      ]
+    }
+  }
+}
