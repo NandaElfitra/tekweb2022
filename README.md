@@ -87,4 +87,3 @@ Contact Me
 [gustiananda.elf12@gmail.com](mailto:gustiananda.elf12@gmail.com "Assalamu'alaikum Warahmatullahi Wabarakaatuh")
 ================================================================================================================
 
-fetch("Data.json") .then(Response => Response.json()) .then(data => { console.log(data) document.getElementById("nama").innerHTML = data.nama document.getElementById("status").innerHTML = data.status + " | " + data.prodi })
